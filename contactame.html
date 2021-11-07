@@ -1,0 +1,135 @@
+<!-- 
+Nombre: Saúl 
+Apellidos: Arechavaleta Zurita
+1 DAM AA   
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>
+            AE 2.1
+        </title>
+        <link rel="stylesheet" href="css/estilos.css" media="all">
+    </head>
+    <body>
+        <div id="header">
+            <ul>
+                <li>
+                    <a href="index.html">Tim Berners-Lee</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="precios.html">Tabla de Precios</a>
+                </li>
+                <li>
+                    <a href="contactame.html">Contactame</a>
+                </li>
+            </ul>
+            <img src="imagenes/imagen-menu.png" alt="menu" usemap="#mapa">
+            <map name="mapa">
+            <area shape="rect" coords="15,45,108,132" href="index.html">
+            <area shape="circle" coords="171,89,49" href="portfolio.html">
+            <area shape="poly" coords="232,136,288,43,344,135" href="precios.html">
+            <area shape="rect" coords="352,33,439,139" href="contactame.html">
+
+        </map>
+        </div>
+
+
+        <div id="main-content">
+            
+            <h1>Contáctame</h1>
+            <h2>Formulario de Contacto</h2>
+            <form action="contact.php">
+
+            <table>
+                <tr scope="col"></tr>
+                    <th align="left">
+                        
+                            <label for="iname">Nombre:</label>
+                            <input id="iname" type="text" name="name" required=""><br/>
+
+                            <label for="isurname">Apellidos:</label>
+                            <input id="isurname" type="text" name="surname" required=""><br/>
+
+                            <label for="iemail">Email:</label>
+                            <input id="iemail" type="email" name="email" required=""><br/>
+
+                            <label for="isex">Sexo:</label>
+                            <input id="hombre" type="radio" name="sexo" value="sexo">
+                            <label for="hombre">Hombre</label>
+                            <input id="mujer" type="radio" name="sexo" value="sexo">
+                            <label for="mujer">Mujer</label><br/>
+
+
+                            <label for="date">Fecha de nacimiento:</label>
+                            <input type="date" name="date"><br/>
+
+                            <label for="date">Edad:</label>
+                            <input type="number" name="number" min="10" max="100"><br/>
+
+                            <label for="country">País:</label>
+                            <select id="country">
+                                <option value="country">Selecciona País</option>
+                                <option value="country">Portugal</option>
+                                <option value="country">España</option>
+                                <option value="country">Francia</option>
+                                <option value="country">Alemania</option>
+                                <option value="country">Suiza</option>
+                                <option value="country">Bélgica</option>
+                                <option value="country">Ucrania</option>
+                            </select>
+                        
+                    </th>
+                </tr>
+            </table>
+
+            <table>
+                <tr scope="col"></tr>
+                    <th align="left">
+                                           
+                            <br/>
+                            <label for="textarea">Mensaje:</label>
+                            <textarea name="TEXTO" id="text" cols="30" rows="10"></textarea><br/>
+                            
+                            
+                            <label for="file">Adjunta una foto...</label>
+                            <input type="file" name="file"><br/>
+
+                            <input id="condiciones" type="checkbox" name="condiciones">
+                            <label for="condiciones">He leído las condiciones...</label><br/>
+
+                            <input type="reset" value="Limpiar">
+                            <input type="submit" value="Enviar"><br/>
+
+
+                        
+                    </th>
+            </table>
+        </form>
+            
+            
+        </div><br/>
+
+        <div id="side-content">
+            <h1>Centro de Referencia</h1>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.7795771560764!2d-16.285462248923366!3d28.456060298710117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cceee5a8035f%3A0xab9f2a74d9e68b51!2sCIFP%20C%C3%A9sar%20Manrique!5e0!3m2!1ses!2ses!4v1636304127316!5m2!1ses!2ses" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+
+        </div><br/>
+        <div id="footer">
+            <b>© 2040</b><a href="index.html"> www.MiSitioWeb.com </a></p>
+
+
+        </div>   
+    
+    
+    </body>
+</html>
